@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         result.setText("已发送命令："+str);
     }
 
+    /**
+     * 串口发送线程
+     */
     private class ReadThread extends Thread {
         @Override
         public void run() {
